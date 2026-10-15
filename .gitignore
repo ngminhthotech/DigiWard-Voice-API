@@ -1,0 +1,30 @@
+# .NET
+bin/
+obj/
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Secrets and configuration
+.env
+.env.*
+!.env.example
+appsettings.json
+appsettings.Development.json
+appsettings.Production.json
+!appsettings.example.json
+
+# Local files
+Backup/
+Uploads/
+*.log
+*.zip
+*.pfx
+*.p12
+*.pem
+*.key
+
+# OS
+.DS_Store
+Thumbs.db
